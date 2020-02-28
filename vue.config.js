@@ -2,6 +2,7 @@ module.exports = {
   "transpileDependencies": [
     "vuetify"
   ],
+
   pages: {
     maintain: {
       entry: 'src/maintain.js',
@@ -38,5 +39,7 @@ module.exports = {
         title: '404',
         chunks: ['chunk-vendors', 'chunk-common', 'index']
       },
-  }
+  },
+
+  runtimeCompiler: true
 }
