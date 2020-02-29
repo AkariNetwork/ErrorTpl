@@ -1,6 +1,6 @@
 <template>
   <v-footer>
-    <div>Build: {{build}}</div>
+
   </v-footer>
 </template>
 
@@ -15,7 +15,6 @@ export default {
     return {
       link: settings.link,
       linktext: settings.linktext,
-      build: settings.build,
       domain: parsed.domain
     }
   }
