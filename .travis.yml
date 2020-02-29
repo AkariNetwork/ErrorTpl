@@ -9,6 +9,10 @@ script:
   - npm run build
   - tar -czvf dist.tar.gz dist/
 
+before_deploy:
+  - git config --local user.name $GH_NAME
+  - git config --local user.email $GH_EMAIL
+  - git tag $TRAVIS_BUILD_NUMBER
 deploy:
   provider: releases
   api_key: $GH_TOKEN
