@@ -8,7 +8,7 @@ import settings from '../settings'
 export default {
   data: function(){
     return {
-      
+      settings
     }
   }
 }
