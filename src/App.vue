@@ -20,6 +20,7 @@ import img_misaka_2 from './assets/img-misaka/2.jpg'
 import img_misaka_3 from './assets/img-misaka/3.jpg'
 import img_misaka_4 from './assets/img-misaka/4.jpg'
 import img_misaka_5 from './assets/img-misaka/5.jpg'
+import img_1 from './assets/img/1.jpg'
 
 export default {
   data: function(){
@@ -31,7 +32,8 @@ export default {
       img_misaka_2,
       img_misaka_3,
       img_misaka_4,
-      img_misaka_5
+      img_misaka_5,
+      img_1,
       }
     }
   }
