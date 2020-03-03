@@ -5,37 +5,38 @@ module.exports = {
       template: 'public/index.html',
       filename: 'maintain.html',
       title: '',
-      chunks: ['chunk-vendors', 'chunk-common', 'index']
+      chunks: ['chunk-vendors', 'chunk-common', 'maintain']
     },
     noprod: {
       entry: 'src/entry/noprod.js',
       template: 'public/index.html',
       filename: 'noprod.html',
       title: '',
-      chunks: ['chunk-vendors', 'chunk-common', 'index']
+      chunks: ['chunk-vendors', 'chunk-common', 'noprod']
     },
     400: {
       entry: 'src/entry/400.js',
       template: 'public/index.html',
       filename: '400.html',
       title: '400',
-      chunks: ['chunk-vendors', 'chunk-common', 'index']
+      chunks: ['chunk-vendors', 'chunk-common', '400']
     },
     403: {
       entry: 'src/entry/403.js',
       template: 'public/index.html',
       filename: '403.html',
       title: '403',
-      chunks: ['chunk-vendors', 'chunk-common', 'index']
+      chunks: ['chunk-vendors', 'chunk-common', '403']
     },
     404: {
         entry: 'src/entry/404.js',
         template: 'public/index.html',
         filename: '404.html',
         title: '404',
-        chunks: ['chunk-vendors', 'chunk-common', 'index']
+        chunks: ['chunk-vendors', 'chunk-common', '404']
       },
   },
 
-  runtimeCompiler: true
+  runtimeCompiler: true,
+  productionSourceMap: false
 }
