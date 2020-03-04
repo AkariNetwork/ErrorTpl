@@ -10,8 +10,8 @@ Vue.config.productionTip = false
 
 new Vue({
   data: {
-    title: '404',
-    text: ''
+    title: '404|页面不存在',
+    talk: '哎呀，你来到了一个不存在的世界耶'
   },
   render:h=>h(App)
 }).$mount('#app')

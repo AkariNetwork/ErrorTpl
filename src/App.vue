@@ -1,10 +1,10 @@
 <template>
   <div>
     <div class="float">
-      <mu-appbar style="width: 100%;" title="Title"></mu-appbar>
+      <mu-appbar style="width: 100%;" :title="title"></mu-appbar>
     </div>
     <div class="background">
-      <mu-carousel hide-indicators class="full">
+      <mu-carousel hide-indicators hide-controls class="full">
         <mu-carousel-item v-for="img in imgs" :key="img">
           <img :src="img">
         </mu-carousel-item>
@@ -27,6 +27,9 @@ export default {
     return {
       link: settings.link,
       linktext: settings.linktext,
+      title: this.$parent.title,
+      text: this.$parent.text,
+      talk: this.$parent.talk,
       imgs: {
       img_misaka_1,
       img_misaka_2,

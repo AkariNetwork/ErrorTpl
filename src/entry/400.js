@@ -11,7 +11,8 @@ Vue.config.productionTip = false
 new Vue({
   data: {
     title: '400',
-    text: ''
+    text: '',
+    talk: ''
   },
   render:h=>h(App)
 }).$mount('#app')

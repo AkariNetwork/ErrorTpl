@@ -10,8 +10,9 @@ Vue.config.productionTip = false
 
 new Vue({
   data: {
-    title: '',
-    text: ''
+    title: '应用维护中',
+    text: '',
+    talk: '哎呀别急嘛，过一会再来嘛'
   },
   render:h=>h(App)
 }).$mount('#app')

@@ -10,8 +10,9 @@ Vue.config.productionTip = false
 
 new Vue({
   data: {
-    title: '403',
-    text: ''
+    title: '403|',
+    text: '',
+    talk: ''
   },
   render:h=>h(App)
 }).$mount('#app')
