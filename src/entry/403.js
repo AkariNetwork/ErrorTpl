@@ -10,7 +10,7 @@ Vue.config.productionTip = false
 
 new Vue({
   data: {
-    title: '403|',
+    title: '403|权限拒绝',
     talk: ''
   },
   render:h=>h(App)

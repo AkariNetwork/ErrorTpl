@@ -10,7 +10,7 @@ Vue.config.productionTip = false
 
 new Vue({
   data: {
-    title: '400',
+    title: '400|请求错误',
     talk: ''
   },
   render:h=>h(App)

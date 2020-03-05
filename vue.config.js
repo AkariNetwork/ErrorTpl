@@ -18,14 +18,14 @@ module.exports = {
       entry: 'src/entry/400.js',
       template: 'public/index.html',
       filename: '400.html',
-      title: '400',
+      title: '400|请求错误',
       chunks: ['chunk-vendors', 'chunk-common', '400']
     },
     403: {
       entry: 'src/entry/403.js',
       template: 'public/index.html',
       filename: '403.html',
-      title: '403',
+      title: '403|权限拒绝',
       chunks: ['chunk-vendors', 'chunk-common', '403']
     },
     404: {
