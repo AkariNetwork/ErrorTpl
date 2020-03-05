@@ -11,7 +11,6 @@ Vue.config.productionTip = false
 new Vue({
   data: {
     title: '400',
-    text: '',
     talk: ''
   },
   render:h=>h(App)

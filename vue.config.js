@@ -4,14 +4,14 @@ module.exports = {
       entry: 'src/entry/maintain.js',
       template: 'public/index.html',
       filename: 'maintain.html',
-      title: '',
+      title: '应用维护中',
       chunks: ['chunk-vendors', 'chunk-common', 'maintain']
     },
     noprod: {
       entry: 'src/entry/noprod.js',
       template: 'public/index.html',
       filename: 'noprod.html',
-      title: '',
+      title: '未找到应用',
       chunks: ['chunk-vendors', 'chunk-common', 'noprod']
     },
     400: {
@@ -32,7 +32,7 @@ module.exports = {
         entry: 'src/entry/404.js',
         template: 'public/index.html',
         filename: '404.html',
-        title: '404',
+        title: '404|页面不存在',
         chunks: ['chunk-vendors', 'chunk-common', '404']
       },
   },
