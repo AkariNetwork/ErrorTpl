@@ -11,7 +11,7 @@ Vue.config.productionTip = false
 new Vue({
   data: {
     title: '403|权限拒绝',
-    talk: ''
+    talk: '是不是在偷看不想让你看的地方呀？'
   },
   render:h=>h(App)
 }).$mount('#app')

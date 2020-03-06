@@ -11,7 +11,7 @@ Vue.config.productionTip = false
 new Vue({
   data: {
     title: '400|请求错误',
-    talk: ''
+    talk: '哎呀，出现错误了呢，要不刷新或者等一会再请求试试吧'
   },
   render:h=>h(App)
 }).$mount('#app')
