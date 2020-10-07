@@ -11,7 +11,7 @@
     "core-js": "^3.6.5",
     "muse-ui": "^3.0.2",
     "psl": "^1.8.0",
-    "typeface-roboto": "^0.0.75",
+    "typeface-roboto": "^1.1.13",
     "vue": "^2.6.11"
   },
   "devDependencies": {
